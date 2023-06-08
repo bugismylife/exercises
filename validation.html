@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validation Form</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <div>
+                <label for="ccn">Credit Card Number:</label>
+                <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" minlength="16" placeholder="xxxx xxxx xxxx xxxx" required>
+            </div>
+            <div>
+                <label for="ccn">CVC:</label>
+                <input type="tel" maxlength="3" minlength="3" required>
+            </div>
+            <div>
+                <label for="expiry">Expiration Date:</label>
+                <input type="month" required>
+            </div>
+            <input type="submit" value="Pay">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Lesson</title>
+  </head>
+  <body>
+      <form action="#" method="post">
+        <div>
+            <label for="Email">Email: </label>  
+            <input type="email">
+        </div>
+        <div>
+            <label for="Password">Password: </label>
+            <input type="password">
+        </div>
+        <div>
+            <div>
+                <label for="Name">Name: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="Surname">Surname: </label>
+                <input type="text">
+            </div>
+        </div>
+        <div>
+            <label for="Birthday">Birthday: </label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="Telephone">Telephone: </label>
+            <input type="tel" maxlength="10" placeholder="5375373737">
+        </div>
+        <div>
+            <label for="Plans">Plans: </label>
+            <select name="plans" id="plans">
+                <option value="Free">Free</option>
+                <option value="A group of 3 plans with increasing price">A group of 3 plans with increasing price</option>
+                <option value="A checkbox for a Pro Plan">A checkbox for a Pro Plan</option>
+            </select>
+        </div>
+        <div>
+            <label for="ccn">Credit Card Number:</label>
+            <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required>
+        </div>
+        <div>
+            <label for="ccn">CVC:</label>
+            <input type="tel" maxlength="3" minlength="3" required>
+        </div>
+        <div>
+            <label for="expiry">Expiration Date:</label>
+            <input type="month" required>
+        </div>
+        <div>
+            <label for="Billing Address">Billing Address: </label>
+            <textarea name="textarea"></textarea>
+        </div>
+      </form>
+  </body>
+</html>
