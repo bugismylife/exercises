@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>HTML Lesson</title>
+</head>
+<style>
+
+</style>
+
+<body>
+  <header>
+    <h1>HEAD</h1>
+  </header>
+  <article>
+    <img src="https://w.wallhaven.cc/full/x6/wallhaven-x6pl9v.jpg" alt="">
+    <p> Test1 </p>
+    <p> Test2 </p>
+    <br>
+    <p> Testing the system </p>
+    <p> Testing the system 2 </p>
+  </article>
+
+  <section>
+      <h1>Subscribe To Lorem Journal</h1>
+    <form action="/" method="POST">
+      <input type="text" id="name" email="name" placeholder="Name">
+      <br>
+      <input type="text" id="email" email="email" required placeholder="E-Mail">
+      <br>
+      <input type="tel" id="number" email="number" placeholder="Telephone number">
+      <br>
+    </form>
+  </section>
+  <br>
+  <input type="button" value="Subscribe">
+  <br>
+  <footer>
+    <h3>Contact Us</h3>
+    <a href="sergenucar1718@gmail.com">Mail</a>
+    <a href="tel:+90555555">Call</a>
+  </footer>
+
+</body>
+
+</html>
